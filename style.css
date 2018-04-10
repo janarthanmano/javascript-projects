@@ -1,0 +1,48 @@
+
+/*Style for container element*/
+#container{
+  display: block;
+  margin: 10px auto;
+  position: relative;
+}
+
+/*Style for memeory game blocks*/
+.block{
+  height: 50px;
+  display: block;
+  float: left;
+  border: 1px solid #000;
+  margin: 2px;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+}
+
+/*Style for coloring the blocks*/
+.color{
+  background: #000;
+}
+
+.clear{
+  clear: both;
+}
+
+
+#overlay{
+  display: block;
+  position: absolute;
+  background: #eee;
+  opacity: 0.8;
+  text-align: center;
+  line-height: 50px;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}

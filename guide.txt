@@ -1,0 +1,15 @@
+1. When an option is selected populate the container with number of squares depending upon the option.
+2. Add a reset button to  refresh the page/game.
+3. Once an option is selected thent he dropdown should be disabled.
+4. Style the squares to make it look nice.
+5. find a function to populate the squares with random numbers within the selected limit.
+6. number of squares with a valid number shoul be even number.
+7. this number divided by 2 will give the numbers that will be used.
+8. get two random arrays of the numbers with limit from the step 7.
+8.1. disable the square are/container and display a start button.
+8.2. on clicking the start button, start a timer next to the reset button in the header.
+9. On first click, reveal the number in the square.
+10. On the second click (different square), reveal the number. And Check if the first revealed number and this number are same.
+11. If same then leave them open.
+12. If different then hide them on the third click on a square that weren't the first two squares.
+13. When last pair is found out then stop the clock and dispaly the time take to solve the puzzle.

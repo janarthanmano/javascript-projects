@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Memory challenge</title>
+	<!--Adding jquery library-->
+	<script src="jquery-3.2.1.js"></script>
+	<!--Adding custom styles here-->
+  	<link rel="stylesheet" type="text/css" href="style.css">
+  	<!--Adding stopwatch library here-->
+  	<script src="jquery.timer.js"></script>
+  	<!--Adding the javascript for the memory game logic-->
+  	<script src="script.js"></script>
+</head>
+<body>
+<div id="wrapper">
+	<div id="header">
+
+		<!--Drop down input to select number of blocks-->
+		<select id="blocks">
+			<option>select!</option>
+			<option>4</option>
+			<option>6</option>
+			<option>8</option>
+			<option>10</option>
+		</select>
+		<!-- Element to display timer/stopwatch -->
+		<div id="stopwatch"></div>
+	</div>
+	<!--Memory game blocks are loaded dynamically to this element-->
+	<div id="container" class="noselect"></div>
+</div>
+
+</body>
+</html>
